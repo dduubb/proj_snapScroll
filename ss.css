@@ -1,0 +1,42 @@
+.container{
+    scroll-snap-type: y mandatory;
+    margin: auto;
+    max-width: 900px;
+  
+  }
+  .sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    /* height: 30em; */
+    top:0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .extra,
+  .wrapper {
+    margin: auto;
+    
+    max-width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    scroll-snap-align: start;
+  }
+  .content{
+      width:50%;
+  }
+  /* #wrapper {
+
+    height: 800px;
+  } */
+  .extra {
+    /* height: 100px; */
+  }
+ div {
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+}
