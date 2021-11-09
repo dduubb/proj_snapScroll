@@ -14,6 +14,13 @@
     align-items: center; */
   }
 
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .content {
+    width: 100%;
+  }
+}
+
   .extra,
   .wrapper {
     margin: auto;
@@ -39,4 +46,23 @@
 
 img{
     width: 100%;
+    
 }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .content {
+      width: 100%;
+    }
+    .wrapper {
+      background-color: white;
+      flex-direction:column;
+    }
+
+  }
+  .content.sticky {
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
